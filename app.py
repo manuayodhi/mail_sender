@@ -41,7 +41,7 @@ class EmailSender:
 
 def main():
     # --- Streamlit UI Setup ---
-    st.title("✉️ Automated Assessment Emailer")
+    st.title("✉️ Raters Email Notification System")
     st.write("Upload your candidate CSV to automatically send completion emails.")
 
     # Email Configuration
