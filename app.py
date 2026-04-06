@@ -28,7 +28,7 @@ class EmailSender:
                 message["To"] = recipient_email
                 message["Subject"] = "Assessment Status Update: Completed"
                 
-                body = "Hello,\n\nYour assessment status has been marked as completed. Thank you!"
+                body = "Hello Manu Ayodhi here,\n\nYour assessment status has been marked as completed. Thank you!"
                 message.attach(MIMEText(body, "plain"))
                 
                 smtp_server.send_message(message)
